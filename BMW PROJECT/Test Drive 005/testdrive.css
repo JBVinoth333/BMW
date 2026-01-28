@@ -9,8 +9,9 @@
     flex-direction: column;
 }
 
-
-
+.btn_submit{
+    color: #ffffff;
+}
 
 .section2{
     padding-left:200px;
@@ -87,7 +88,6 @@
     flex-wrap: wrap;
 }
 button{
-    color:#ffffff;
     border:none;
     background-color:#1c69d6;
     padding:15px 30px;

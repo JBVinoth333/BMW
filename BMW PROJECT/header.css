@@ -67,18 +67,19 @@ main {
 nav {
     align-items: center;
     display: flex;
-    gap: 2rem;
+    gap: 10%;
+    width: 95%;
     background-color: #ffffff;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-    padding: 0.1rem;
+    padding: 0.5% 0.1%;
 }
 
 .nav-buttons {
     display: flex;
     align-items: center;
-    gap: 2.5rem;
-    padding-right: 5rem;
-    
+    gap: 15%;
+    /* padding-right: 5rem; */
+
 }
 
 .nav-span {
@@ -102,51 +103,21 @@ nav {
     border: none;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
+    width: 100%;
 }
 
 .btn-nav:hover {
     cursor: pointer;
 }
 
-.page1:hover {
+.page1:hover,.page2:hover,.page3:hover,.page4:hover,.page5:hover,.page6:hover,.page7:hover {
     background-color: #1c69d4;
     color: #ffffff;
 }
-
-.page2:hover {
-    background-color: #1c69d4;
-    color: #ffffff;
-}
-
-.page3:hover {
-    background-color: #1c69d4;
-    color: #ffffff;
-}
-
-.page4:hover {
-    background-color: #1c69d4;
-    color: #ffffff;
-}
-
-.page5:hover {
-    background-color: #1c69d4;
-    color: #ffffff;
-}
-
-.page6:hover {
-    background-color: #1c69d4;
-    color: #ffffff;
-}
-
-.page7:hover {
-    background-color: #1c69d4;
-    color: #ffffff;
-}
-
 .nav-logo {
     display: flex;
     align-items: center;
@@ -154,7 +125,7 @@ nav {
     padding-left: 2rem;
 }
 
-.img_logo a img{
+.img_logo a img {
     height: 5rem;
     width: 5rem;
 }
@@ -168,16 +139,7 @@ nav {
 }
 
 .logo_name {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
-
-
-
-
-
-
-

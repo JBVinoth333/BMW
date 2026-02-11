@@ -1,60 +1,25 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    display: flex;
-    top: 0rem;
-    position: sticky;
-    z-index: 100;
-    justify-content: center;
-    align-items: center;
-}
-
-.roboto-font200 {
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-}
-
-.roboto-font400 {
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.roboto-font600 {
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.roboto-font800 {
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-}
-
-.roboto-font1000 {
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 1000;
-    font-style: normal;
-}
-
 body {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
     justify-content: center;
     margin-top: 30px;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -67,67 +32,62 @@ main {
 nav {
     align-items: center;
     display: flex;
-    gap: 10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 95%;
     background-color: #ffffff;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-    padding: 0.5% 0.1%;
+    padding: 0.5rem 1rem;
 }
 
 .nav-buttons {
     display: flex;
     align-items: center;
-    gap: 15%;
-    /* padding-right: 5rem; */
-
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .nav-span {
     font-size: 1.8rem;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
 }
 
 .nav-p {
     font-size: 2rem;
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
 }
 
 .btn-nav {
     background-color: #ffffff;
     border: none;
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
-    font-style: normal;
     font-size: 1.5rem;
     padding: 0.5rem;
-    width: 100%;
+    width: auto;
 }
 
 .btn-nav:hover {
     cursor: pointer;
 }
 
-.page1:hover,.page2:hover,.page3:hover,.page4:hover,.page5:hover,.page6:hover,.page7:hover {
+.page1:hover,
+.page2:hover,
+.page3:hover,
+.page4:hover,
+.page5:hover,
+.page6:hover,
+.page7:hover {
     background-color: #1c69d4;
     color: #ffffff;
 }
+
 .nav-logo {
     display: flex;
     align-items: center;
     gap: 1rem;
-    padding-left: 2rem;
-}
-
-.img_logo a img {
-    height: 5rem;
-    width: 5rem;
+    padding-left: 1rem;
 }
 
 .img_logo {
@@ -135,11 +95,75 @@ nav {
     align-items: center;
     border-right: 1px solid black;
     padding-right: 0.8rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
+}
+
+.img_logo a img {
+    height: 4rem;
+    width: 4rem;
 }
 
 .logo_name {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .nav-span {
+        font-size: 1.6rem;
+    }
+
+    .nav-p {
+        font-size: 1.7rem;
+    }
+
+    .btn-nav {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .nav-buttons {
+        width: 100%;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .img_logo a img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .nav-span {
+        font-size: 1.4rem;
+    }
+
+    .nav-p {
+        font-size: 1.5rem;
+    }
+
+    .btn-nav {
+        font-size: 1.2rem;
+        padding: 0.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .btn-nav {
+        width: 100%;
+        text-align: left;
+    }
 }

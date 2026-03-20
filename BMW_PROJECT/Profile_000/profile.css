@@ -1,0 +1,129 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    padding: 5px 10px;
+    font-style: normal;
+}
+
+
+#section1 {
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 200px;
+    display: flex;
+    gap: 200px;
+}
+
+.circle {
+    height: 350px;
+    background-image: url("../assets/images/profile/profile_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#section1 .para p,
+.para p {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.para {
+    background-color: #d4a066;
+    padding: 25px;
+    line-height: 1.6;
+    width:600px;
+    border-radius: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+#section2 {
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-right: 200px;
+    display: flex;
+    gap: 200px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.sec2_child2 {
+    padding-top: 70px;
+}
+
+
+#section3{
+ width: 100%;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-right: 200px;
+    display: flex;
+    gap: 200px;
+}   
+
+
+#section4{
+ width: 100%;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-right: 200px;
+    display: flex;
+    gap: 200px;
+}
+
+
+footer{
+    padding-bottom:50px;
+    padding-top:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding:20px 40px;
+    background-color: #669AD4;
+    border: none;
+    color:#ffffff;
+     font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 10px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+button:hover{
+cursor: pointer;
+}
+
+
+.animate{
+    background-color:#ffffff;
+}
+
+

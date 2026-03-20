@@ -1,0 +1,123 @@
+/* ============================================
+   FOOTER-LIGHT.CSS — Light footer shared by:
+   Models page, All Buy Cars pages
+   ============================================ */
+
+footer {
+    background-color: #f6f6f6;
+}
+
+#foot_main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 280px;
+    border-bottom: 1px solid #000000;
+}
+
+.img_foot {
+    margin-top: -50px;
+}
+
+.footlogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.foothead {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#foot_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 80px;
+    padding-right: 280px;
+    border-bottom: 1px solid #000000;
+}
+
+.headandpara {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footh5 {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+.ulclassic {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 290;
+    font-style: normal;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.footall {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+li:hover {
+    color: #5683e9;
+    cursor: pointer;
+}
+
+#footlast {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    gap: 50px;
+    padding-left: 60px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #000000;
+}
+
+.ulhr {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 50px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 290;
+    font-style: normal;
+}
+
+.lastword {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 290;
+    font-style: normal;
+}

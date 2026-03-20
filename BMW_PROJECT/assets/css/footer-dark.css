@@ -1,0 +1,82 @@
+/* ============================================
+   FOOTER-DARK.CSS — Dark footer shared by:
+   Home, Circular, Explain, Digital, Electric
+   ============================================ */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    gap: 50px;
+    background-color: #262626;
+}
+
+.white {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.whitepara {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    padding-bottom: 15px;
+    font-style: normal;
+}
+
+.cementheads {
+    color: #bbbbbb;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+    padding-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.cement {
+    color: #bbbbbb;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.mainfoot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    padding-bottom: 50px;
+}
+
+.foothr {
+    height: 0.1px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.lastword {
+    padding-bottom: 50px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #ffffff;
+}

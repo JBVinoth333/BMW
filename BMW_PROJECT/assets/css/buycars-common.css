@@ -1,0 +1,594 @@
+/* ============================================
+   BUYCARS-COMMON.CSS — Shared across ALL 27 car pages
+   Hero section, content sections, car gallery, etc.
+   ============================================ */
+
+a {
+    color: #666666;
+}
+
+.section1 {
+    width: 100%;
+    background-image: url('../images/shared/buycar_image1.jpg');
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    opacity: 10px;
+    color: #ffffff;
+}
+
+.sec1h5 {
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.btn_book {
+    background-color: #9d9d9d;
+    padding: 10px 15px;
+    border: none;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: 240px;
+    height: 60px;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    transition-delay: 0.1;
+    text-align: center;
+}
+
+.btn_book:hover {
+    background-color: #4d4d4d;
+    transform: scale(1.1);
+}
+
+.sec1minipara {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.posforsec1 {
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
+.sec1child1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec1child2 {
+    display: flex;
+    gap: 150px;
+}
+
+.sec1child2para1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.carlinks {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(50px);
+    border-bottom: 1px solid #d6d6d6;
+    position: sticky;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    top: 0;
+    z-index: 100;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.section2 {
+    padding-top: 100px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+}
+
+#section3 {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sec2h2 {
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.sec2para {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.sec2parachild2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sec2h6 {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+
+.sec3h1 {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+#sec3para {
+    color: #8e8e8e;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+
+h4 {
+    padding-bottom: 30px;
+    border-bottom: 5px solid transparent;
+}
+
+h4:hover {
+    border-bottom: 5px solid black;
+}
+
+.section4 {
+    padding-top: 100px;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+}
+
+.section4_content {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section4_map {
+    width: 65%;
+}
+
+.section4_map iframe {
+    width: 100%;
+}
+
+.sec4para {
+    color: #1b69d4;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+}
+
+.fa-solid {
+    color: #666666;
+    font-size: 24px;
+}
+
+input {
+    height: 30px;
+    text-indent: 10px;
+    width: 200px;
+}
+
+.sec4_chid {
+    display: flex;
+    gap: 20px;
+}
+
+#section5 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: #000000;
+    padding-top: 200px;
+}
+
+.sec5child1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sec5para1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.sec5para2 {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    color: #000000;
+    padding-top: 100px;
+}
+
+.sec6para {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.section7 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #000000;
+    padding-top: 100px;
+}
+
+.sec7child2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec7_images {
+    display: flex;
+    gap: 20px;
+}
+
+.img3_sec7 {
+    width: 400px;
+    height: 250px;
+    background-image: url('../images/buycars/buycar_image.1710309111607.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2_sec7 {
+    width: 400px;
+    height: 250px;
+    background-image: url('../images/buycars/buycar_image.1710997489541.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1_sec7 {
+    width: 400px;
+    height: 250px;
+    background-image: url('../images/buycars/buycar_image.1710999243244.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec7_heads {
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+}
+
+.sec7_head {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.sec7_child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sec7_para {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+    line-height: 1.6;
+    word-spacing: 1px;
+}
+
+.sec7h1 {
+    font-size: 46px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+#mech_links {
+    display: flex;
+    gap: 70px;
+    width: 100%;
+    backdrop-filter: blur(50px);
+    padding-right: 100px;
+    padding-left: 100px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.mech_link {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.carss {
+    border-bottom: 5px solid #e6e6e6;
+}
+
+.carss:hover {
+    border-bottom-color: #000000;
+}
+
+h5 {
+    padding-bottom: 20px;
+    border-bottom: 5px solid transparent;
+}
+
+.section8 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    align-items: center;
+    color: #000000;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.img1_sec8 {
+    background-image: url('../images/buycars/car1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+
+.img2_sec8 {
+    background-image: url('../images/buycars/car2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+
+.img3_sec8 {
+    background-image: url('../images/buycars/car3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+
+.section9 {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+.sec9 {
+    display: flex;
+    gap: 20px;
+}
+
+.img_car1 {
+    width: 500px;
+    height: 300px;
+    background-image: url('../images/buycars/car4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_car2 {
+    width: 500px;
+    height: 300px;
+    background-image: url('../images/buycars/car5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_car3 {
+    width: 500px;
+    height: 300px;
+    background-image: url('../images/buycars/car6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_car4 {
+    width: 500px;
+    height: 300px;
+    background-image: url('../images/buycars/car7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_car5 {
+    width: 500px;
+    height: 300px;
+    background-image: url('../images/buycars/car8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_car6 {
+    width: 500px;
+    height: 300px;
+    background-image: url('../images/buycars/car9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec9_head {
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.sec9_para {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.sec9_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#section10 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sec10_content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec10_h1 {
+    font-size: 46px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.sec10_para {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.sec10_content2 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.sec10_child1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec10_child2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec10_image1+div p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+span {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.sec10_image1+div h5 {
+    font-size: 24px;
+    word-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.sec10_image1 {
+    background-image: url('../images/buycars/front.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+}
+
+.sec10_image2+div p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.sec10_image2+div h5 {
+    font-size: 24px;
+    word-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.sec10_image2 {
+    background-image: url('../images/buycars/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+}

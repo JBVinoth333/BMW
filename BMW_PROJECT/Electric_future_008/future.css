@@ -1,0 +1,236 @@
+.whitepara {
+    color: #ffffff;
+    line-height: 1.6;
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    font-style: normal;
+
+}
+
+#section3 {
+    width: 100%;
+    height: 570px;
+    /* margin-top: 250px; */
+    padding-top: 100px;
+    /* padding-bottom: 200px; */
+    /* gap:10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3_child1 {
+    width: 44.25%;
+    height: 100%;
+    display: flex;
+    gap: 15%;
+    flex-direction: column;
+}
+
+.sec3_child1_up {
+    height: 80%;
+}
+
+.sec3_child1:hover {
+    cursor: pointer;
+}
+
+.sec3_child1_down {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sec3_child2 {
+    width: 44.25%;
+    height: 100%;
+    gap: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec3_child2_up {
+    height: 80%;
+    padding-top:45px;
+}
+
+.sec3_child2:hover {
+    cursor: pointer;
+}
+
+.sec3_child2_down {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sec3_h6 {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.sec3_para {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sec7content6 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top:200px;
+    padding-left: 100px;
+    padding-right:100px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+.sec7content4 {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 4px;
+    padding-bottom:30px;
+}
+
+.threes_last {
+    background-image: url("../assets/images/electric/threes1a.jpg");
+    height: 250px;
+    width: 445px;
+    /* padding-top: 100px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec7content4child {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sec7content4childl {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 23px;
+    gap: 30px;
+}
+.sec7_h6 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.sec7_para {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec7content2 {
+    display: flex;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom: 100px;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.sec7child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sec7childcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sec7_h6 {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.sec7_para {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.6;
+}
+.sec7content9 {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.sec7content9_child1 {
+    background-image: url("../assets/images/electric/single2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 1335px;
+}

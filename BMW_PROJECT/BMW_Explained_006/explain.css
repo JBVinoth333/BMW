@@ -11,8 +11,8 @@
 #section3{
     background-color: #ffffff;
     padding-top:200px;
-    padding-left:100px;
-    padding-right:100px;
+    padding-left:80px;
+    padding-right:80px;
     justify-content: center;
     display:flex;
     flex-wrap: wrap;
@@ -24,6 +24,7 @@
     background-repeat: no-repeat;
     width:410px;
     height:410px;
+    border-radius: 8px;
 }
 .sec3_img2{
     background-image: url('../assets/images/explain/image2.png');
@@ -31,6 +32,7 @@
     background-repeat: no-repeat;
     width:410px;
     height:600px;
+    border-radius: 8px;
 }
 .sec3_img3{
     background-image: url('../assets/images/explain/image3.jpg');
@@ -38,6 +40,7 @@
     background-repeat: no-repeat;
     width:410px;
     height:410px;
+    border-radius: 8px;
 }
 .sec3_child{
     display:flex;
@@ -62,8 +65,8 @@
 #section4{
     background-color: #ffffff;
     padding-top:200px;
-    padding-left:100px;
-    padding-right:100px;
+    padding-left:80px;
+    padding-right:80px;
     justify-content: center;
     display:flex;
     flex-wrap: wrap;
@@ -93,8 +96,8 @@
 #section5{
     background-color: #ffffff;
     padding-top:200px;
-    padding-left:100px;
-    padding-right:100px;
+    padding-left:80px;
+    padding-right:80px;
     padding-bottom: 100px;
     justify-content: center;
     display:flex;

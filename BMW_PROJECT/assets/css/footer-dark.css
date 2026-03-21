@@ -1,14 +1,12 @@
-/* ============================================
-   FOOTER-DARK.CSS — Dark footer shared by:
-   Home, Circular, Explain, Digital, Electric
-   ============================================ */
+/* Dark footer shared by: Home, Circular, Explain, Digital, Electric */
+
 
 footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 50px;
     gap: 50px;
     background-color: #262626;

@@ -14,9 +14,9 @@
 }
 
 .section2{
-    padding-left:200px;
+    padding-left:80px;
     padding-top:50px;
-    padding-right:200px;
+    padding-right:80px;
     display:flex;
     flex-direction: column;
     gap:50px;
@@ -120,8 +120,8 @@ button{
 footer{
     display:flex;
     justify-content: space-between;
-    padding-left:100px;
-    padding-right:100px;
+    padding-left:80px;
+    padding-right:80px;
     padding-bottom: 30px;
     font-family: "Roboto", sans-serif;
      font-optical-sizing: auto;

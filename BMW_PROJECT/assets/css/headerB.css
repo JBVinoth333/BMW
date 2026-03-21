@@ -1,0 +1,43 @@
+
+body {
+    margin-top: 0;
+    padding-top: 1.7rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: -114px;
+}
+
+nav {
+    background-color: white;
+    box-shadow: none;
+}
+
+.btn-nav {
+    background-color: transparent;
+    color: #000000;
+}
+
+.nav-p {
+    color: #000000;
+}
+
+.img_logo {
+    border-right-color: rgba(255, 255, 255, 0.5);
+}
+
+.page1:hover,
+.page2:hover,
+.page3:hover,
+.page4:hover,
+.page5:hover,
+.page6:hover,
+.page7:hover {
+    background-color: rgba(28, 105, 212, 0.8);
+    border-radius: 4px;
+}

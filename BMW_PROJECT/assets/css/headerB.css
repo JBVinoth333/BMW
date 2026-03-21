@@ -1,4 +1,3 @@
-
 body {
     margin-top: 0;
     padding-top: 1.7rem;
@@ -31,6 +30,16 @@ nav {
     border-right-color: rgba(255, 255, 255, 0.5);
 }
 
+.btn-nav.active {
+    border-bottom: none;
+    color: #1c69d4;
+}
+
+.btn-nav.active:hover {
+    background-color: #1c69d4;
+    color: #ffffff;
+}
+
 .page1:hover,
 .page2:hover,
 .page3:hover,
@@ -38,6 +47,6 @@ nav {
 .page5:hover,
 .page6:hover,
 .page7:hover {
-    background-color: rgba(28, 105, 212, 0.8);
-    border-radius: 4px;
+    background-color: #1c69d4;
+    color: #ffffff;
 }

@@ -2,10 +2,10 @@
 #section1 {
     padding-top: 80px;
     padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
-      padding-bottom:25px;
-    /* border-bottom: 1px solid #d6d6d6; */
+    padding-bottom: 25px;
     gap: 30px;
 }
 
@@ -59,14 +59,15 @@ h4 {
 .carlinks {
     display: flex;
     gap: 20px;
-    width:100%;
+    width: 100%;
     backdrop-filter: blur(50px);
-     border-bottom: 1px solid #d6d6d6;
-    position:sticky;
-    padding-left:80px;
-      padding-top:25px;
-      top:0px;
-     text-decoration: none;
+    border-bottom: 1px solid #d6d6d6;
+    position: sticky;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    top: 0px;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
@@ -78,13 +79,14 @@ h4:hover {
 #section2 {
     padding-top: 50px;
     padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 h5{
-    font-size:20px;
+    font-size: 24px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -92,21 +94,21 @@ h5{
     font-style: normal;
 }
 .sec2child_cars1{
-    display:flex;
-    flex-wrap:wrap;
-    gap:30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .sec2child_cars2{
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    gap:30px;
+    gap: 30px;
 }
 .i{
-    height:220px;
-    width:220px;
+    height: 340px;
+    width: 340px;
 }
 .sechr{
-    width:990px;
+    width: 100%;
 }
 
 a{
@@ -121,10 +123,11 @@ a{
 
 #section3{
     padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 .sec3child{
     display:flex;
@@ -133,8 +136,8 @@ a{
 
 }
 .x{
-    height:220px;
-    width:220px;
+    height: 340px;
+    width: 340px;
 }
 
 
@@ -146,15 +149,16 @@ a{
 
 
 #section4{
-padding-left: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 .m{
-    height:220px;
-    width:220px;
+    height: 340px;
+    width: 340px;
 }
 
 
@@ -164,14 +168,15 @@ padding-left: 80px;
 
 #section5{
     padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 .m7{
-    height:220px;
-    width:220px;
+    height: 340px;
+    width: 340px;
 }
 
 
@@ -182,14 +187,15 @@ padding-left: 80px;
 
 #section6{
     padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 .m5{
-    height:220px;
-    width:220px;
+    height: 340px;
+    width: 340px;
 }
 
 
@@ -198,14 +204,15 @@ padding-left: 80px;
 
 #section7{
     padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 .m3{
-    height:220px;
-    width:220px;
+    height: 340px;
+    width: 340px;
 }
 
 
@@ -216,14 +223,15 @@ padding-left: 80px;
 
 #section8{
     padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 .m2{
-    height:220px;
-    width:220px;
+    height: 340px;
+    width: 340px;
 }
 
 
@@ -234,14 +242,15 @@ padding-left: 80px;
 
 #section9{
     padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-bottom:150px;
+    padding-bottom: 150px;
 }
 .z4{
-    height:220px;
-    width:220px;
+    height: 340px;
+    width: 340px;
 }
 
 
@@ -257,27 +266,27 @@ padding-left: 80px;
 
 
  .bmw{
-    width:230px;
-    height:150px;
+    width: 340px;
+    height: 220px;
  }
  .carpara1{
-    font-size:14px;
+    font-size: 16px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 290;
+    font-weight: 300;
     line-height: 1.6;
     font-style: normal;
  }
  .carpara2{
-    font-size:10px;
-     font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 290;
+    font-weight: 300;
     font-style: normal;
  }
  .carpara3{
-    font-size:16px;
-     font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -439,7 +448,7 @@ padding-left: 80px;
 .img18{
     transition-property: transform;
     transition-duration: 0.2s;
-    transition-timing-function: ease;
+    transition-timing-function: ease;    z-index: 100;
     transition-delay: 0.01s;
 
 }

@@ -104,7 +104,7 @@ footer{
 }
 button{
     padding:20px 40px;
-    background-color: #669AD4;
+    background-color: #1c69d4;
     border: none;
     color:#ffffff;
      font-size: 20px;
@@ -116,7 +116,9 @@ button{
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 button:hover{
-cursor: pointer;
+    cursor: pointer;
+    background-color: #1558b5;
+    transform: translateY(-2px);
 }
 
 

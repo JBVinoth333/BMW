@@ -43,7 +43,6 @@
 }
 
 .sec3_child1_down {
-    height: 15%;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -65,7 +64,6 @@
 }
 
 .sec3_child2_down {
-    height: 15%;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -130,6 +128,7 @@
     padding-left: 80px;
     padding-right: 80px;
     gap: 16px;
+    padding-top: 100px;
     padding-bottom: 30px;
 }
 
@@ -199,6 +198,7 @@
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
+    padding-top: 100px;
     padding-bottom: 100px;
     gap: 16px;
 }

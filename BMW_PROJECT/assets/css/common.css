@@ -129,6 +129,15 @@ nav {
     color: #ffffff;
 }
 
+.btn-nav.active {
+    color: #1c69d4;
+}
+
+.btn-nav.active:hover {
+    background-color: #1c69d4;
+    color: #ffffff;
+}
+
 .nav-logo {
     display: flex;
     align-items: center;

@@ -29,7 +29,7 @@ a {
 }
 
 .btn_book {
-    background-color: #9d9d9d;
+    background-color: #1c69d4;
     padding: 10px 15px;
     border: none;
     color: #ffffff;
@@ -46,8 +46,8 @@ a {
 }
 
 .btn_book:hover {
-    background-color: #4d4d4d;
-    transform: scale(1.1);
+    background-color: #1558b5;
+    transform: scale(1.05);
 }
 
 .sec1minipara {

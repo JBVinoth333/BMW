@@ -89,10 +89,19 @@
 }
 button{
     border:none;
-    background-color:#1c69d6;
+    background-color:#1c69d4;
     padding:15px 30px;
      font-family: "Roboto", sans-serif;
     font-size: 16px;
+    color: #ffffff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #1558b5;
+    transform: translateY(-2px);
 }
 
 .sec2 p{

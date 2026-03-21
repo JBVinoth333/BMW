@@ -1,15 +1,55 @@
-/* <!--section 1 section 1section 1section 1section 1section 1-->  */
+
+:root {
+    --clr-dark: #1a1a1a;
+    --clr-muted: #666;
+    --clr-body: #444;
+    --clr-blue: #1c69d4;
+    --clr-blue-hover: #1558b5;
+    --clr-white: #ffffff;
+    --radius: 8px;
+    --pad-x: clamp(16px, 5vw, 80px);
+    --gap: clamp(12px, 1.5vw, 16px);
+    --gap-lg: clamp(24px, 4vw, 60px);
+    --section-gap: clamp(40px, 6vw, 80px);
+    --font: "Roboto", sans-serif;
+}
+
+
+.sec7child video,
+.sec7content3 video,
+.sec7content4child video,
+.sec7content6 video,
+.sec2_child1_up video,
+.sec2_child2_up video,
+.sec1_child2 video,
+#section5>div:first-child video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--radius);
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* ===== Section 1 — Hero ===== */
 
 #section1 {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin: 80px auto 0;
+    margin: var(--section-gap) auto 0;
     align-items: center;
     overflow: hidden;
     justify-content: center;
-    gap: 60px;
-    padding: 0 80px;
+    gap: var(--gap-lg);
+    padding: 0 var(--pad-x);
 }
 
 .sec1_child1 {
@@ -26,87 +66,72 @@
 }
 
 .sec1_child1 div p {
-    font-size: 20px;
+    font-size: clamp(14px, 1.3vw, 20px);
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #666;
-    font-family: "Roboto", sans-serif;
+    color: var(--clr-muted);
+    font-family: var(--font);
     font-weight: 400;
 }
 
 .sec1_child1 div h3 {
-    font-size: 48px;
+    font-size: clamp(28px, 3.2vw, 48px);
     letter-spacing: -0.5px;
     line-height: 1.2;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font);
     font-weight: 300;
-    color: #1a1a1a;
+    color: var(--clr-dark);
 }
 
 .sec1_child1 div button {
-    color: #ffffff;
+    color: var(--clr-white);
     margin-top: 20px;
     padding: 16px 48px;
-    background-color: #1c69d4;
+    background-color: var(--clr-blue);
     border: none;
     border-radius: 4px;
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
+    font-size: clamp(15px, 1.2vw, 18px);
+    font-family: var(--font);
     font-weight: 600;
     width: fit-content;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .sec1_child1 div button:hover {
-    cursor: pointer;
-    background-color: #1558b5;
+    background-color: var(--clr-blue-hover);
     transform: translateY(-2px);
 }
 
 .sec1_child2 {
     flex: 1 1 400px;
     overflow: hidden;
-    border-radius: 8px;
-}
-
-.sec1_child2 video {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
+    border-radius: var(--radius);
 }
 
 
-/* section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section2 section */
+/* ===== Section 2 — Two-column cards ===== */
 
 #section2 {
     width: 100%;
-    margin: 0 auto;
-    padding: 80px 80px 0;
+    padding: var(--section-gap) var(--pad-x) 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 24px;
+    gap: clamp(16px, 2vw, 24px);
 }
 
 .sec2_child1,
 .sec2_child2 {
-    flex: 1;
+    flex: 1 1 360px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: var(--gap);
 }
 
 .sec2_child1_up,
 .sec2_child2_up {
     overflow: hidden;
-    border-radius: 8px;
-}
-
-.sec2_child1_up video,
-.sec2_child2_up video {
-    width: 100%;
-    height: auto;
-    display: block;
+    border-radius: var(--radius);
 }
 
 .sec2_child1:hover,
@@ -123,60 +148,52 @@
 }
 
 .sec2_h6 {
-    font-size: 14px;
+    font-size: clamp(12px, 1vw, 14px);
     text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #666;
-    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    color: var(--clr-muted);
+    font-family: var(--font);
     font-weight: 600;
 }
 
 .sec2_para {
-    font-size: 22px;
-    font-family: "Roboto", sans-serif;
+    font-size: clamp(16px, 1.5vw, 22px);
+    font-family: var(--font);
     font-weight: 400;
-    color: #1a1a1a;
-    line-height: 1.4;
+    color: var(--clr-dark);
+    line-height: 1.5;
 }
 
 
-/* section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 section3 */
+/* ===== Section 3 — Centred heading ===== */
 
 .section3 {
     width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 120px 80px 80px;
+    padding: clamp(60px, 8vw, 120px) var(--pad-x) var(--section-gap);
 }
 
 .section3 h3 {
-    font-size: 42px;
-    letter-spacing: 1px;
-    font-family: "Roboto", sans-serif;
+    font-size: clamp(24px, 3vw, 42px);
+    letter-spacing: 2px;
+    font-family: var(--font);
     font-weight: 600;
     text-transform: uppercase;
-    color: #1a1a1a;
+    color: var(--clr-dark);
+    line-height: 1.3;
 }
 
 
-
-
-
-
-
-/* section 4 section 4 sectio 4 */
-
-
-
+/* ===== Section 4 — Expandable gallery ===== */
 
 #section4 {
     display: flex;
     width: 100%;
-    margin: 0 auto;
-    gap: 16px;
-    padding: 0 80px;
-    height: 420px;
+    gap: var(--gap);
+    padding: 0 var(--pad-x);
+    height: clamp(280px, 30vw, 420px);
     overflow: hidden;
 }
 
@@ -184,9 +201,9 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: var(--gap);
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: var(--radius);
     transition: flex 0.4s ease;
 }
 
@@ -197,8 +214,9 @@
 .sec4image {
     width: 100%;
     flex: 1;
-    border-radius: 8px;
+    border-radius: var(--radius);
     background-position: center;
+    background-size: cover;
     transition: transform 0.4s ease;
 }
 
@@ -208,8 +226,8 @@
 
 .box1 {
     background-image: url("../assets/images/home/sec4_car2.png");
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box2 {
@@ -237,56 +255,49 @@
 }
 
 .sec4_h3 {
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
+    font-size: clamp(14px, 1.2vw, 18px);
+    font-family: var(--font);
     font-weight: 600;
     padding: 4px 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: var(--clr-dark);
 }
 
 
-/* section5 section5 section5 section5 section5 section5 section5 section5 section5 section5 section5 section5 */
+/* ===== Section 5 — CTA banner ===== */
 
 #section5 {
     width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    padding: 80px 80px;
+    gap: var(--gap-lg);
+    padding: var(--section-gap) var(--pad-x);
 }
 
-#section5 > div:first-child {
+#section5>div:first-child {
     flex: 1 1 500px;
     overflow: hidden;
-    border-radius: 8px;
-}
-
-#section5 > div:first-child video {
-    width: 100%;
-    height: auto;
-    display: block;
+    border-radius: var(--radius);
 }
 
 .explain {
     border: none;
     border-radius: 4px;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font);
     font-weight: 500;
-    font-size: 18px;
+    font-size: clamp(15px, 1.2vw, 18px);
     padding: 14px 36px;
-    color: #ffffff;
-    background-color: #1c69d4;
+    color: var(--clr-white);
+    background-color: var(--clr-blue);
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .explain:hover {
-    cursor: pointer;
-    background-color: #1558b5;
+    background-color: var(--clr-blue-hover);
     transform: translateY(-2px);
 }
 
@@ -299,17 +310,17 @@
 }
 
 .child2forsec5h3 {
-    font-size: 38px;
-    font-family: "Roboto", sans-serif;
+    font-size: clamp(24px, 2.8vw, 38px);
+    font-family: var(--font);
     font-weight: 300;
-    color: #1a1a1a;
+    color: var(--clr-dark);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .child2forsec5h5 {
-    font-size: 24px;
-    font-family: "Roboto", sans-serif;
+    font-size: clamp(18px, 1.6vw, 24px);
+    font-family: var(--font);
     color: #333;
     font-weight: 600;
 }
@@ -320,21 +331,16 @@
     gap: 24px;
 }
 
-a {
-    text-decoration: none;
-}
 
-
-/* section6 section6 section6 section6 section6 section6 section6 section6 section6 section6 section6 section6  */
+/* ===== Section 6 — Podcast ===== */
 
 #section6 {
     width: 100%;
-    margin: 0 auto;
     display: flex;
-    gap: 60px;
+    gap: var(--gap-lg);
     flex-wrap: wrap;
     align-items: center;
-    padding: 80px 80px;
+    padding: var(--section-gap) var(--pad-x);
 }
 
 .sec6child1 {
@@ -345,37 +351,37 @@ a {
 }
 
 .sec6child1h3 {
-    font-size: 48px;
+    font-size: clamp(30px, 3.5vw, 48px);
     letter-spacing: 1px;
     line-height: 1.15;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font);
     font-weight: 300;
     text-transform: uppercase;
-    color: #1a1a1a;
+    color: var(--clr-dark);
 }
 
 .sec6child2para {
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
+    font-size: clamp(15px, 1.2vw, 18px);
+    font-family: var(--font);
     font-weight: 400;
-    color: #444;
+    color: var(--clr-body);
     line-height: 1.7;
 }
 
 .btn_listennow {
     padding: 14px 48px;
-    background-color: #ffffff;
-    border: 2px solid #1a1a1a;
+    background-color: var(--clr-white);
+    border: 2px solid var(--clr-dark);
     border-radius: 4px;
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
+    font-size: clamp(16px, 1.3vw, 20px);
+    font-family: var(--font);
     font-weight: 600;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
 .btn_listennow:hover {
-    background-color: #1a1a1a;
-    color: #ffffff;
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
     transform: translateY(-2px);
 }
 
@@ -383,15 +389,15 @@ a {
     flex: 1 1 500px;
     display: flex;
     align-items: stretch;
-    gap: 16px;
+    gap: var(--gap);
 }
 
 .apple,
 .ball,
 .cat {
     flex: 1;
-    min-height: 380px;
-    border-radius: 8px;
+    min-height: clamp(220px, 28vw, 380px);
+    border-radius: var(--radius);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -417,59 +423,48 @@ a {
 }
 
 
-/* section7 section7 section7 section7 section7 section7 section7 section7 section7 section7 section7 section7 */
+/* ===== Section 7 — Models grid ===== */
 
 .section7 {
     width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 80px 80px;
-}
-
-button:hover {
-    cursor: pointer;
+    gap: clamp(24px, 3vw, 40px);
+    padding: var(--section-gap) var(--pad-x);
 }
 
 .sec7content1 {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: var(--gap);
     padding-bottom: 20px;
 }
 
 .sec7h1 {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font);
     font-weight: 300;
-    font-size: 56px;
-    color: #1a1a1a;
+    font-size: clamp(32px, 4vw, 56px);
+    color: var(--clr-dark);
     letter-spacing: -0.5px;
 }
 
 .sec7h5 {
-    font-size: 24px;
-    font-family: "Roboto", sans-serif;
+    font-size: clamp(18px, 1.6vw, 24px);
+    font-family: var(--font);
     font-weight: 600;
 }
 
 .sec7content2 {
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: var(--gap);
 }
 
 .sec7child {
-    flex: 1;
+    flex: 1 1 340px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
-}
-
-.sec7child video {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
+    gap: var(--gap);
 }
 
 .sec7childcontent {
@@ -479,110 +474,97 @@ button:hover {
 }
 
 .sec7_h6 {
-    font-size: 14px;
+    font-size: clamp(12px, 1vw, 14px);
     text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #666;
-    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.5px;
+    color: var(--clr-muted);
+    font-family: var(--font);
     font-weight: 600;
 }
 
 .sec7_para {
-    font-size: 22px;
-    font-family: "Roboto", sans-serif;
+    font-size: clamp(16px, 1.5vw, 22px);
+    font-family: var(--font);
     font-weight: 400;
-    color: #1a1a1a;
+    color: var(--clr-dark);
     line-height: 1.5;
 }
 
+
+/* -- Full-width video -- */
 
 .sec7content3 {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    gap: 16px;
+    gap: var(--gap);
 }
 
-.sec7content3 video {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-}
+/* -- Three-column cards -- */
 
 .sec7content4 {
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: var(--gap);
     padding-bottom: 20px;
 }
 
-.threes_last {
-    background-image: url("../assets/images/home/landing_threes2_bawp-01-stage-hd.jpg");
-    height: 250px;
-    width: 100%;
-    border-radius: 8px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 .sec7content4child {
-    flex: 1;
+    flex: 1 1 240px;
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.sec7content4child video {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-}
-
 .sec7content4childl {
-    flex: 1;
+    flex: 1 1 240px;
     display: flex;
     flex-direction: column;
     gap: 12px;
     justify-content: space-between;
 }
 
+.threes_last {
+    background-image: url("../assets/images/home/landing_threes2_bawp-01-stage-hd.jpg");
+    height: clamp(160px, 18vw, 250px);
+    width: 100%;
+    border-radius: var(--radius);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .sec7content5 {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: var(--gap);
 }
 
+
+/* -- Single wide video -- */
 
 .sec7content6 {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: var(--gap);
     padding-top: 20px;
 }
 
-.sec7content6 video {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-}
 
-
-/* -- Three-box-- */
+/* -- Three-box sections -- */
 
 .sec7content7 {
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: var(--gap);
     padding-top: 20px;
 }
 
 .threes_second {
     background-image: url("../assets/images/home/landing_threes3_cl-00-teaser-hd.jpg");
-    height: 250px;
+    height: clamp(160px, 18vw, 250px);
     width: 100%;
-    border-radius: 8px;
+    border-radius: var(--radius);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -596,15 +578,18 @@ button:hover {
 
 .sec7content8 {
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: var(--gap);
     padding-top: 20px;
 }
 
 
+/* -- Full-width banner image -- */
+
 .sec7content9 {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: var(--gap);
     padding-top: 20px;
 }
 
@@ -616,48 +601,42 @@ button:hover {
     width: 100%;
     height: 0;
     padding-bottom: 56.25%;
-    border-radius: 8px;
+    border-radius: var(--radius);
 }
 
 
 /* -- Bottom three-box -- */
 
-.threesall_image1 {
-    background-image: url("../assets/images/shared/twos1a.jpg");
-    height: 250px;
+.threesall_image1,
+.threesall_image2,
+.threesall_image3 {
+    height: clamp(160px, 18vw, 250px);
     width: 100%;
-    border-radius: 8px;
+    border-radius: var(--radius);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.threesall_image1 {
+    background-image: url("../assets/images/shared/twos1a.jpg");
 }
 
 .threesall_image2 {
     background-image: url("../assets/images/home/landing_threes4_xmas24-00-teaser-hd.jpg");
-    height: 250px;
-    width: 100%;
-    border-radius: 8px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .threesall_image3 {
     background-image: url("../assets/images/home/landing_threes4_st-00-teaser-hd.jpg");
-    height: 250px;
-    width: 100%;
-    border-radius: 8px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .sec7content7a {
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: var(--gap);
     padding-top: 20px;
 }
 
 .sec7content7a .sec7content4child {
-    flex: 1;
+    flex: 1 1 240px;
 }
